@@ -1099,6 +1099,51 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .form__success .fa { font-size: 1.2rem; }
 
 /* ===================================
+   CONTACT MAP
+   =================================== */
+.contact__map {
+  margin-top: 56px;
+  padding-top: 48px;
+  border-top: 1px solid var(--clr-border);
+}
+
+.contact__map-title {
+  font-family: var(--ff-heading);
+  font-size: 1.3rem;
+  color: var(--clr-dark);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact__map-title .fa { color: var(--clr-gold); }
+
+.contact__map-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 2px solid var(--clr-border);
+}
+
+.contact__map-frame iframe { display: block; }
+
+.contact__map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--clr-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: var(--transition);
+}
+
+.contact__map-link:hover { color: var(--clr-primary); }
+
+/* ===================================
    FOOTER
    =================================== */
 .footer { background: var(--clr-dark); color: #d4b896; }
