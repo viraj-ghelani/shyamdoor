@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shyam Door – Premium Doors & Door Skins</title>
+  <meta name="description" content="Shyam Door offers premium quality lamination doors and door skins. Explore our wide collection of SLD and SL series doors. Flush Door MR Grade Wood, Glossy, Matt & Texture finishes." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <span><i class="fa fa-envelope"></i> shyamdoor@gmail.com</span>
+      <span><i class="fa fa-globe"></i> www.shyamdoor.com</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo">
+        <img src="images/logo-icon.png" alt="Shyam Door Icon" class="header__logo-icon" />
+        <div class="header__logo-text">
+          <span class="header__logo-name">Shyam</span>
+          <span class="header__logo-sub">Lamination Door</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__dropdown">
+            <a href="#products" class="nav__link">Products <i class="fa fa-chevron-down"></i></a>
+            <ul class="nav__submenu">
+              <li><a href="#lamination-doors">Lamination Doors</a></li>
+              <li><a href="#door-skin">Door Skin</a></li>
+            </ul>
+          </li>
+          <li><a href="#construction" class="nav__link">Door Construction</a></li>
+          <li><a href="#catalogue" class="nav__link">Catalogue</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero__slider" id="heroSlider">
+      <div class="hero__slide active" style="background-image: url('images/hero-cover.jpg');">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <p class="hero__tagline">Welcome to</p>
+          <h1 class="hero__title">Shyam Door</h1>
+          <p class="hero__subtitle">Premium Quality Lamination Doors & Door Skins<br>Crafted with Precision — Designed for Elegance</p>
+          <div class="hero__cta">
+            <a href="#products" class="btn btn--primary">Explore Products</a>
+            <a href="#contact" class="btn btn--outline">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__slide" style="background-image: url('images/products/lamination/sld-101-103.jpg');">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <p class="hero__tagline">Lamination Door Collection</p>
+          <h1 class="hero__title">SLD Series</h1>
+          <p class="hero__subtitle">Stunning designs with premium lamination finish<br>Available in Glossy, Matt & Texture</p>
+          <div class="hero__cta">
+            <a href="#lamination-doors" class="btn btn--primary">View Collection</a>
+            <a href="downloads/Shyam-Lamination-Door-Catalogue.pdf" class="btn btn--outline" download>Download Catalogue</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__slide" style="background-image: url('images/products/doorskin/sl-1031-1033.jpg');">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <p class="hero__tagline">Door Skin Collection</p>
+          <h1 class="hero__title">SL Series</h1>
+          <p class="hero__subtitle">Elegant door skin designs with artistic patterns<br>Perfect for modern interiors</p>
+          <div class="hero__cta">
+            <a href="#door-skin" class="btn btn--primary">View Collection</a>
+            <a href="downloads/Shyam-Door-Skin-Catalogue.pdf" class="btn btn--outline" download>Download Catalogue</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slider Controls -->
+    <button class="hero__arrow hero__arrow--prev" id="prevSlide" aria-label="Previous slide"><i class="fa fa-chevron-left"></i></button>
+    <button class="hero__arrow hero__arrow--next" id="nextSlide" aria-label="Next slide"><i class="fa fa-chevron-right"></i></button>
+    <div class="hero__dots" id="heroDots">
+      <button class="hero__dot active" data-slide="0" aria-label="Slide 1"></button>
+      <button class="hero__dot" data-slide="1" aria-label="Slide 2"></button>
+      <button class="hero__dot" data-slide="2" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar">
+    <div class="container stats-bar__inner">
+      <div class="stat">
+        <span class="stat__num">60+</span>
+        <span class="stat__label">Door Designs</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">2</span>
+        <span class="stat__label">Product Series</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">3</span>
+        <span class="stat__label">Finish Options</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">100%</span>
+        <span class="stat__label">Quality Assured</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image">
+          <img src="images/door-construction.jpg" alt="Shyam Door Construction" loading="lazy" />
+          <div class="about__badge">
+            <span>Premium</span>
+            <span>Quality</span>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__sub">About Us</p>
+          <h2 class="section__title">Crafting Doors That Define Spaces</h2>
+          <p class="about__text">
+            Shyam Door is a trusted name in the door manufacturing industry, 
+            specializing in high-quality lamination doors and door skins that combine 
+            aesthetics with durability.
+          </p>
+          <p class="about__text">
+            Our products are crafted using MR Grade Wood (Pine & Commercial), 
+            with precision lamination technology ensuring long-lasting finish and 
+            beautiful design. We offer an extensive range of designs to suit every 
+            architectural style — from contemporary to traditional.
+          </p>
+          <div class="about__features">
+            <div class="about__feature">
+              <i class="fa fa-check-circle"></i>
+              <span>Flush Door MR Grade Wood (Pine & Commercial)</span>
+            </div>
+            <div class="about__feature">
+              <i class="fa fa-check-circle"></i>
+              <span>Thickness: 30mm, 35mm &amp; 40mm</span>
+            </div>
+            <div class="about__feature">
+              <i class="fa fa-check-circle"></i>
+              <span>50 Micron Chemical Coating</span>
+            </div>
+            <div class="about__feature">
+              <i class="fa fa-check-circle"></i>
+              <span>Marble Frame &amp; Wood Frame Border Options</span>
+            </div>
+            <div class="about__feature">
+              <i class="fa fa-check-circle"></i>
+              <span>Glossy, Matt &amp; Texture Finish Available</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT CATEGORIES ===== -->
+  <section class="section categories" id="products">
+    <div class="container">
+      <div class="section__header text-center">
+        <p class="section__sub">Our Products</p>
+        <h2 class="section__title">Premium Door Collections</h2>
+        <p class="section__desc">Explore our curated range of lamination doors and door skins, crafted to elevate every interior.</p>
+      </div>
+      <div class="categories__grid">
+        <a href="#lamination-doors" class="category-card">
+          <div class="category-card__img" style="background-image: url('images/products/lamination/sld-110-112.jpg');"></div>
+          <div class="category-card__body">
+            <h3>Lamination Doors</h3>
+            <p>SLD Series — 50+ Designs</p>
+            <span class="category-card__cta">View Collection <i class="fa fa-arrow-right"></i></span>
+          </div>
+        </a>
+        <a href="#door-skin" class="category-card">
+          <div class="category-card__img" style="background-image: url('images/products/doorskin/sl-1031-1033.jpg');"></div>
+          <div class="category-card__body">
+            <h3>Door Skin</h3>
+            <p>SL Series — 30+ Designs</p>
+            <span class="category-card__cta">View Collection <i class="fa fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LAMINATION DOORS SECTION ===== -->
+  <section class="section products-section" id="lamination-doors">
+    <div class="container">
+      <div class="section__header text-center">
+        <p class="section__sub">SLD Series</p>
+        <h2 class="section__title">Lamination Door Collection</h2>
+        <p class="section__desc">High-quality laminated doors with stunning designs. Available in multiple finishes and thickness options.</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs" id="laminationTabs">
+        <button class="filter-tab active" data-page="0">SLD 101–109</button>
+        <button class="filter-tab" data-page="1">SLD 110–118</button>
+        <button class="filter-tab" data-page="2">SLD 119–127</button>
+      </div>
+
+      <div class="product-pages" id="laminationPages">
+        <!-- Page 0 -->
+        <div class="product-page active">
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/products/lamination/sld-101-103.jpg" alt="Lamination Doors SLD-101 to SLD-103" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-101 · SLD-102 · SLD-103</h4>
+                <p>Classic lamination designs with premium wood texture finish</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/lamination/sld-104-106.jpg" alt="Lamination Doors SLD-104 to SLD-106" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-104 · SLD-105 · SLD-106</h4>
+                <p>Contemporary patterns with elegant lamination surface</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/lamination/sld-107-109.jpg" alt="Lamination Doors SLD-107 to SLD-109" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-107 · SLD-108 · SLD-109</h4>
+                <p>Modern geometric designs for premium interiors</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 1 -->
+        <div class="product-page">
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/products/lamination/sld-110-112.jpg" alt="Lamination Doors SLD-110 to SLD-112" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-110 · SLD-111 · SLD-112</h4>
+                <p>Diamond-pattern luxury doors with premium laminate</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/lamination/sld-113-115.jpg" alt="Lamination Doors SLD-113 to SLD-115" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-113 · SLD-114 · SLD-115</h4>
+                <p>Sleek, minimalist designs for modern homes</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/lamination/sld-116-118.jpg" alt="Lamination Doors SLD-116 to SLD-118" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-116 · SLD-117 · SLD-118</h4>
+                <p>Bold vertical stripe designs with wood grain texture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 2 -->
+        <div class="product-page">
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/products/lamination/sld-119-121.jpg" alt="Lamination Doors SLD-119 to SLD-121" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-119 · SLD-120 · SLD-121</h4>
+                <p>Artistic multi-panel doors with rich teak finish</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/lamination/sld-122-124.jpg" alt="Lamination Doors SLD-122 to SLD-124" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-122 · SLD-123 · SLD-124</h4>
+                <p>Luxurious inlay designs with contrast laminate panels</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/lamination/sld-125-127.jpg" alt="Lamination Doors SLD-125 to SLD-127" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SLD-125 · SLD-126 · SLD-127</h4>
+                <p>Premium glossy finish with artistic wood grain patterns</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-40">
+        <a href="downloads/Shyam-Lamination-Door-Catalogue.pdf" class="btn btn--primary" download>
+          <i class="fa fa-download"></i> Download Full Catalogue
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOOR SKIN SECTION ===== -->
+  <section class="section products-section products-section--alt" id="door-skin">
+    <div class="container">
+      <div class="section__header text-center">
+        <p class="section__sub">SL Series</p>
+        <h2 class="section__title">Door Skin Collection</h2>
+        <p class="section__desc">Beautifully crafted door skins with artistic laser-cut and decorative inlay designs to enhance your living spaces.</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs" id="doorskinTabs">
+        <button class="filter-tab active" data-page="0">SL 1001–1012</button>
+        <button class="filter-tab" data-page="1">SL 1013–1024</button>
+        <button class="filter-tab" data-page="2">SL 1025–1036</button>
+      </div>
+
+      <div class="product-pages" id="doorskinPages">
+        <!-- Page 0 -->
+        <div class="product-page active">
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1001-1003.jpg" alt="Door Skin SL-1001 to SL-1003" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1001 · SL-1002 · SL-1003</h4>
+                <p>Elegant door skins with artistic decorative inlays</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1004-1006.jpg" alt="Door Skin SL-1004 to SL-1006" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1004 · SL-1005 · SL-1006</h4>
+                <p>Modern patterns with premium veneer texture</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1007-1009.jpg" alt="Door Skin SL-1007 to SL-1009" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1007 · SL-1008 · SL-1009</h4>
+                <p>Classic rich wood finish door skin designs</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1010-1012.jpg" alt="Door Skin SL-1010 to SL-1012" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1010 · SL-1011 · SL-1012</h4>
+                <p>Contemporary geometric door skin with teak laminate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 1 -->
+        <div class="product-page">
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1013-1015.jpg" alt="Door Skin SL-1013 to SL-1015" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1013 · SL-1014 · SL-1015</h4>
+                <p>Artistic floral & nature-inspired door skin designs</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1016-1018.jpg" alt="Door Skin SL-1016 to SL-1018" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1016 · SL-1017 · SL-1018</h4>
+                <p>Luxury diagonal and geometric panel door skins</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1019-1021.jpg" alt="Door Skin SL-1019 to SL-1021" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1019 · SL-1020 · SL-1021</h4>
+                <p>Modern abstract designs with high-gloss finish</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1022-1024.jpg" alt="Door Skin SL-1022 to SL-1024" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1022 · SL-1023 · SL-1024</h4>
+                <p>Bold wood grain with accent strip door skins</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 2 -->
+        <div class="product-page">
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1025-1027.jpg" alt="Door Skin SL-1025 to SL-1027" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1025 · SL-1026 · SL-1027</h4>
+                <p>Rich dark veneer with golden accent door skins</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1028-1030.jpg" alt="Door Skin SL-1028 to SL-1030" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1028 · SL-1029 · SL-1030</h4>
+                <p>Premium inlay designs with metallic accent finish</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1031-1033.jpg" alt="Door Skin SL-1031 to SL-1033" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1031 · SL-1032 · SL-1033</h4>
+                <p>Zebra pattern, diagonal gold-strip, tree art door skins</p>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="images/products/doorskin/sl-1034-1036.jpg" alt="Door Skin SL-1034 to SL-1036" loading="lazy" />
+              <div class="product-card__body">
+                <h4>SL-1034 · SL-1035 · SL-1036</h4>
+                <p>Exclusive premium door skin designs for luxury spaces</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-40">
+        <a href="downloads/Shyam-Door-Skin-Catalogue.pdf" class="btn btn--primary" download>
+          <i class="fa fa-download"></i> Download Door Skin Catalogue
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOOR CONSTRUCTION SECTION ===== -->
+  <section class="section construction" id="construction">
+    <div class="container">
+      <div class="section__header text-center">
+        <p class="section__sub">Engineering Excellence</p>
+        <h2 class="section__title">Door Construction &amp; Advantages</h2>
+      </div>
+      <div class="construction__grid">
+        <div class="construction__image">
+          <img src="images/door-construction.jpg" alt="Door Construction Layers" loading="lazy" />
+        </div>
+        <div class="construction__details">
+          <h3>Built Layer by Layer for Lasting Quality</h3>
+          <p>Every Shyam Door is engineered with multiple protective layers that ensure strength, durability, and a flawless finish.</p>
+          <div class="construction__layers">
+            <div class="layer-item">
+              <div class="layer-dot"></div>
+              <div>
+                <strong>Flush Door Wood Frame</strong>
+                <p>Sturdy MR Grade Wood (Pine &amp; Commercial)</p>
+              </div>
+            </div>
+            <div class="layer-item">
+              <div class="layer-dot"></div>
+              <div>
+                <strong>Flush Door Surface</strong>
+                <p>Smooth base surface for lamination adhesion</p>
+              </div>
+            </div>
+            <div class="layer-item">
+              <div class="layer-dot"></div>
+              <div>
+                <strong>Chemical Layer</strong>
+                <p>Anti-moisture and protective bonding layer</p>
+              </div>
+            </div>
+            <div class="layer-item">
+              <div class="layer-dot"></div>
+              <div>
+                <strong>Design Sheet</strong>
+                <p>Premium lamination design with artistic patterns</p>
+              </div>
+            </div>
+            <div class="layer-item">
+              <div class="layer-dot"></div>
+              <div>
+                <strong>Chemical Coating (50 Micron)</strong>
+                <p>UV-resistant top coat for lasting shine</p>
+              </div>
+            </div>
+            <div class="layer-item">
+              <div class="layer-dot"></div>
+              <div>
+                <strong>Structure Effect</strong>
+                <p>Textured finish for depth and aesthetic appeal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specs Cards -->
+      <div class="specs__grid">
+        <div class="spec-card">
+          <i class="fa fa-ruler-combined"></i>
+          <h4>Thickness Options</h4>
+          <p>30mm · 35mm · 40mm</p>
+        </div>
+        <div class="spec-card">
+          <i class="fa fa-layer-group"></i>
+          <h4>Coating</h4>
+          <p>50 Micron Chemical Coating</p>
+        </div>
+        <div class="spec-card">
+          <i class="fa fa-border-all"></i>
+          <h4>Border Options</h4>
+          <p>Marble Frame · Wood Frame</p>
+        </div>
+        <div class="spec-card">
+          <i class="fa fa-paint-brush"></i>
+          <h4>Finish Options</h4>
+          <p>Glossy · Matt · Texture</p>
+        </div>
+        <div class="spec-card">
+          <i class="fa fa-tree"></i>
+          <h4>Material</h4>
+          <p>Flush Door MR Grade Wood</p>
+        </div>
+        <div class="spec-card">
+          <i class="fa fa-pencil-ruler"></i>
+          <h4>Extra Design</h4>
+          <p>Custom design charges apply</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section why-us">
+    <div class="why-us__bg" style="background-image: url('images/products/lamination/sld-113-115.jpg');"></div>
+    <div class="why-us__overlay"></div>
+    <div class="container why-us__content">
+      <div class="section__header text-center">
+        <p class="section__sub" style="color: #f0b429;">Why Choose Us</p>
+        <h2 class="section__title" style="color: #fff;">The Shyam Difference</h2>
+      </div>
+      <div class="why-us__grid">
+        <div class="why-card">
+          <i class="fa fa-award"></i>
+          <h4>Premium Quality</h4>
+          <p>MR Grade flush door wood with 50 micron protective coating for long-lasting durability.</p>
+        </div>
+        <div class="why-card">
+          <i class="fa fa-palette"></i>
+          <h4>Vast Design Range</h4>
+          <p>60+ unique door designs across two collections — SLD lamination series and SL door skin series.</p>
+        </div>
+        <div class="why-card">
+          <i class="fa fa-cogs"></i>
+          <h4>Custom Finishes</h4>
+          <p>Choose from Glossy, Matt or Texture finish. Available in multiple thickness options.</p>
+        </div>
+        <div class="why-card">
+          <i class="fa fa-home"></i>
+          <h4>For Every Space</h4>
+          <p>Suitable for main doors, bedroom doors, bathroom doors, office doors and more.</p>
+        </div>
+        <div class="why-card">
+          <i class="fa fa-shield-alt"></i>
+          <h4>Durable Construction</h4>
+          <p>Multi-layer construction with marble or wood frame border for a premium look and strength.</p>
+        </div>
+        <div class="why-card">
+          <i class="fa fa-headset"></i>
+          <h4>Expert Support</h4>
+          <p>Our team guides you to pick the perfect door design for your interior and budget.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATALOGUE SECTION ===== -->
+  <section class="section catalogue" id="catalogue">
+    <div class="container">
+      <div class="section__header text-center">
+        <p class="section__sub">Downloads</p>
+        <h2 class="section__title">Our Catalogues</h2>
+        <p class="section__desc">Download our full product catalogues to explore all available designs, specifications and finish options.</p>
+      </div>
+      <div class="catalogue__grid">
+        <div class="catalogue-card">
+          <div class="catalogue-card__preview">
+            <img src="images/products/lamination/sld-110-112.jpg" alt="Lamination Door Catalogue Preview" loading="lazy" />
+            <div class="catalogue-card__badge">PDF</div>
+          </div>
+          <div class="catalogue-card__body">
+            <h3>Shyam Door</h3>
+            <p>SLD-101 to SLD-160+ · 20 pages · All designs &amp; specifications</p>
+            <a href="downloads/Shyam-Lamination-Door-Catalogue.pdf" class="btn btn--primary" download>
+              <i class="fa fa-download"></i> Download Catalogue
+            </a>
+          </div>
+        </div>
+        <div class="catalogue-card">
+          <div class="catalogue-card__preview">
+            <img src="images/products/doorskin/sl-1031-1033.jpg" alt="Door Skin Catalogue Preview" loading="lazy" />
+            <div class="catalogue-card__badge">PDF</div>
+          </div>
+          <div class="catalogue-card__body">
+            <h3>Shyam Door Skin</h3>
+            <p>SL-1001 to SL-1036+ · 12 pages · Artistic door skin designs</p>
+            <a href="downloads/Shyam-Door-Skin-Catalogue.pdf" class="btn btn--primary" download>
+              <i class="fa fa-download"></i> Download Catalogue
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__header text-center">
+        <p class="section__sub">Get In Touch</p>
+        <h2 class="section__title">Contact Us</h2>
+        <p class="section__desc">Have a question or need a quote? We're here to help. Reach out to us and our team will get back to you promptly.</p>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fa fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:shyamdoor@gmail.com">shyamdoor@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fa fa-globe"></i></div>
+            <div>
+              <h4>Website</h4>
+              <a href="http://www.shyamdoor.com" target="_blank" rel="noopener">www.shyamdoor.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fa fa-clock"></i></div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday – Saturday: 9:00 AM – 7:00 PM</p>
+            </div>
+          </div>
+          <div class="contact__catalogues">
+            <h4>Quick Downloads</h4>
+            <a href="downloads/Shyam-Lamination-Door-Catalogue.pdf" class="download-link" download>
+              <i class="fa fa-file-pdf"></i> Lamination Door Catalogue
+            </a>
+            <a href="downloads/Shyam-Door-Skin-Catalogue.pdf" class="download-link" download>
+              <i class="fa fa-file-pdf"></i> Door Skin Catalogue
+            </a>
+          </div>
+        </div>
+        <div class="contact__form">
+          <form class="form" id="contactForm" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form__group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" />
+            </div>
+            <div class="form__group">
+              <label for="interest">I'm interested in</label>
+              <select id="interest" name="interest">
+                <option value="">Select a product category</option>
+                <option value="lamination-door">Lamination Doors (SLD Series)</option>
+                <option value="door-skin">Door Skin (SL Series)</option>
+                <option value="both">Both Collections</option>
+                <option value="other">Other Inquiry</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your requirement…"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <i class="fa fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form__success" id="formSuccess">
+              <i class="fa fa-check-circle"></i> Thank you! Your message has been sent. We'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__top-inner">
+        <div class="footer__brand">
+          <div class="footer__logo-wrap">
+            <img src="images/logo-icon.png" alt="Shyam Door Icon" class="footer__logo-icon" />
+            <div class="footer__logo-text">
+              <span class="footer__logo-name">Shyam</span>
+              <span class="footer__logo-sub">Lamination Door</span>
+            </div>
+          </div>
+          <p>Premium quality lamination doors and door skins crafted with precision and elegance.</p>
+          <div class="footer__social">
+            <a href="mailto:shyamdoor@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#lamination-doors">Lamination Doors</a></li>
+            <li><a href="#door-skin">Door Skin</a></li>
+            <li><a href="#construction">Door Construction</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__products">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#lamination-doors">SLD Series – Lamination Doors</a></li>
+            <li><a href="#door-skin">SL Series – Door Skin</a></li>
+          </ul>
+          <h4 style="margin-top: 1.5rem;">Finish Options</h4>
+          <ul>
+            <li><a href="#products">Glossy Finish</a></li>
+            <li><a href="#products">Matt Finish</a></li>
+            <li><a href="#products">Texture Finish</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p><i class="fa fa-envelope"></i> <a href="mailto:shyamdoor@gmail.com">shyamdoor@gmail.com</a></p>
+          <p><i class="fa fa-globe"></i> <a href="http://www.shyamdoor.com" target="_blank" rel="noopener">www.shyamdoor.com</a></p>
+          <h4 style="margin-top: 1.5rem;">Download Catalogues</h4>
+          <p><a href="downloads/Shyam-Lamination-Door-Catalogue.pdf" download><i class="fa fa-download"></i> Lamination Door Catalogue</a></p>
+          <p><a href="downloads/Shyam-Door-Skin-Catalogue.pdf" download><i class="fa fa-download"></i> Door Skin Catalogue</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2026 Shyam Door. All Rights Reserved.</p>
+        <p>Email: <a href="mailto:shyamdoor@gmail.com">shyamdoor@gmail.com</a> &nbsp;|&nbsp; Web: <a href="http://www.shyamdoor.com" target="_blank" rel="noopener">www.shyamdoor.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
